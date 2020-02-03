@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border: rgb(0, 0, 0) solid;
+    /* background-image: url('beige-paper.png'); */
+}
+
+h1 {
+    font-family: 'Roboto Mono';
+    /* font-weight: bold; */
+    font-size: 60px;
+}
+
+button {
+    background-color: rgb(47, 49, 49);
+    font-family: 'Roboto Mono';
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+td {
+    border-radius: 20%;
+    height: 60px;
+    width: 60px;
+    /* background-color: rgba(252, 164, 0, 0.884); */
+    font-size: 20px;
+    font-family: 'Roboto Mono';
+    background: rgb(179, 205, 237);
+    background: radial-gradient(circle, rgba(37, 132, 248, 0.507) 28%, rgba(0, 0, 0, 0.8596774193548387) 100%);
+    cursor: pointer;
+}
+
+.level {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.diff {
+    margin-bottom: 8px;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+}
+
+.timer {
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    color: rgba(62, 77, 68, 0.801);
+}
